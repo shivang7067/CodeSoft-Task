@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Bhai', cursive;
+    background: url('img/img.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.left h2 {
+    font-size: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:rgb(15, 230, 93);
+    text-decoration: underline;
+}
+
+/* Right Section (Buttons) */
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(38, 34, 34);
+}
+
+/* Form Container */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background-color: gray;
+    color: white;
+}
